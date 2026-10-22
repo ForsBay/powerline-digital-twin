@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Power Line Digital Twin</title>
+  </head>
+  <body>
+    <div id="viewer"></div>
+
+    <aside class="panel">
+      <h1>Power Line Digital Twin</h1>
+      <p class="subtitle">LiDAR point cloud + GIS layer of a 10 kV line</p>
+
+      <p id="status" class="status">Loading data...</p>
+
+      <section>
+        <h2>Layers</h2>
+        <label><input type="checkbox" id="show-points" checked /> LiDAR point cloud</label>
+        <label><input type="checkbox" id="show-model" checked /> 3D model from GIS</label>
+        <label>
+          Color points by
+          <select id="color-mode">
+            <option value="class">Classification</option>
+            <option value="height">Height</option>
+          </select>
+        </label>
+        <ul class="legend">
+          <li><i style="background: #a1887f"></i> Ground</li>
+          <li><i style="background: #66bb6a"></i> Vegetation</li>
+          <li><i style="background: #ffee58"></i> Wire</li>
+          <li><i style="background: #ff7043"></i> Pole</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>View</h2>
+        <div class="buttons">
+          <button type="button" id="view-3d">3D</button>
+          <button type="button" id="view-top">Top (2D map)</button>
+        </div>
+      </section>
+
+      <section>
+        <h2>Poles</h2>
+        <div class="buttons">
+          <button type="button" id="snap-btn" class="primary">Snap to LiDAR</button>
+          <button type="button" id="reset-btn">Reset to GIS</button>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Type</th>
+              <th>Shift</th>
+              <th>Height</th>
+            </tr>
+          </thead>
+          <tbody id="pole-table"></tbody>
+        </table>
+        <p class="hint">Shift = distance between GIS position and the pole found in the scan</p>
+      </section>
+    </aside>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
