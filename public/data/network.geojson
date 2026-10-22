@@ -1,0 +1,285 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "origin": [
+      24.03,
+      49.84
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P-01",
+        "material": "concrete",
+        "height": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0275878,
+          49.8399501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P-02",
+        "material": "wood",
+        "height": 9.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0282707,
+          49.8399436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P-03",
+        "material": "wood",
+        "height": 9.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0289442,
+          49.8399519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P-04",
+        "material": "concrete",
+        "height": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0296531,
+          49.8400046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P-05",
+        "material": "wood",
+        "height": 9.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0303338,
+          49.8400299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P-06",
+        "material": "wood",
+        "height": 9.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0310478,
+          49.8400366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P-07",
+        "material": "concrete",
+        "height": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.031753,
+          49.840062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P-08",
+        "material": "wood",
+        "height": 9.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0324555,
+          49.8400625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "L-1",
+        "from": "P-01",
+        "to": "P-02",
+        "voltage": "10 kV"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            24.0275878,
+            49.8399501
+          ],
+          [
+            24.0282707,
+            49.8399436
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "L-2",
+        "from": "P-02",
+        "to": "P-03",
+        "voltage": "10 kV"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            24.0282707,
+            49.8399436
+          ],
+          [
+            24.0289442,
+            49.8399519
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "L-3",
+        "from": "P-03",
+        "to": "P-04",
+        "voltage": "10 kV"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            24.0289442,
+            49.8399519
+          ],
+          [
+            24.0296531,
+            49.8400046
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "L-4",
+        "from": "P-04",
+        "to": "P-05",
+        "voltage": "10 kV"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            24.0296531,
+            49.8400046
+          ],
+          [
+            24.0303338,
+            49.8400299
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "L-5",
+        "from": "P-05",
+        "to": "P-06",
+        "voltage": "10 kV"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            24.0303338,
+            49.8400299
+          ],
+          [
+            24.0310478,
+            49.8400366
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "L-6",
+        "from": "P-06",
+        "to": "P-07",
+        "voltage": "10 kV"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            24.0310478,
+            49.8400366
+          ],
+          [
+            24.031753,
+            49.840062
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "L-7",
+        "from": "P-07",
+        "to": "P-08",
+        "voltage": "10 kV"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            24.031753,
+            49.840062
+          ],
+          [
+            24.0324555,
+            49.8400625
+          ]
+        ]
+      }
+    }
+  ]
+}
